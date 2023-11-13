@@ -1,0 +1,58 @@
+/* Navbar */
+.navbar {
+    padding: 2rem;
+    background-color: #f5f6f7;
+}
+
+.navbar-nav {
+    align-items: center;
+}
+
+.navbar-collapse {
+    align-items: center;
+    justify-content: space-between;
+}
+
+/* MyClass */
+.myclass {
+    background-color: #f5f6f7;
+    min-height: 450px;
+    text-align: center;
+}
+
+.myclass-main {
+    padding: 3rem;
+}
+
+.myclass-main h2 {
+    font-size: 1.5rem;
+    color: #615151;
+}
+
+.myclass-pic {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin: 20px;
+}
+
+/* Others */
+section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;    
+}
+
+h1 {
+    font-size: 2.5rem;
+}
+
+/* Responsive */
+
+@media screen and (max-width: 767px) {
+    .navbar-brand {
+        display: none;
+    }
+    
+}
