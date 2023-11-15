@@ -36,6 +36,69 @@
     margin: 20px;
 }
 
+
+.about-me {
+    height: 500px;
+    padding: 10px;
+}
+
+.section-oscura {
+    color: white;
+    background-color: #1b1b32;    
+}
+
+.about-me .contenedor {
+    max-width: 600px;
+    text-align: center;
+}
+
+.seccion-titulo {
+    font-size: 2rem;
+    padding: 15px 0;
+}
+
+.seccion-texto {
+    font-size: 1.2rem;
+}
+
+.experiencia {
+    padding: 40px;
+}
+
+.experiencia-columna:hover {
+    color: white;
+    background-color: #1b1b32;
+}
+
+.experiencia-title {
+    font-size: 25px;
+    font-weight: bold;
+    margin: 10px 0;
+}
+
+.experiencia i {
+    font-size: 2.5rem;
+    color: yellowgreen;
+    background-color: #0a0a23;
+    padding: 8px 19px;
+    border-radius: 25%;
+}
+
+.section-clara {
+    color: black;
+    background-color: white;
+}
+
+.badge-contenedor {
+    font-size: 20px;
+    font-weight: bold;
+    margin: 10px 0;
+}
+
+.badge {
+    margin: 5px;
+}
+
 /* Others */
 section {
     display: flex;
@@ -55,4 +118,10 @@ h1 {
         display: none;
     }
     
+}
+
+@media screen and (max-width: 700px) {
+    .myclass-imagen {
+        max-width: 600px;
+    }
 }
