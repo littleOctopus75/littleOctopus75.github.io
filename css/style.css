@@ -60,6 +60,7 @@
 
 .seccion-texto {
     font-size: 1.2rem;
+    
 }
 
 .experiencia {
@@ -100,6 +101,26 @@
     margin: 5px;
 }
 
+/*Carrucel*/
+
+.carousel-inner .img {
+    height: auto; /* Hacer que las imágenes ocupen el 100% del largo del contenedor */
+    width: auto; /* Ajustar automáticamente la anchura proporcionalmente */
+}
+.carousel-item {
+    max-width: 500px; /* Ancho máximo del carrusel */
+    max-height: 600px;
+    margin: auto; /* Centrar el carrusel */
+}
+.btn-carrucel{
+    color: #f5f6f7;
+    background-color: #0a0a23;
+}
+.carousel-control-next, .carousel-control-prev{
+    opacity: 1.5;
+}
+
+
 /* Others */
 section {
     display: flex;
@@ -112,6 +133,9 @@ h1 {
     font-size: 2.5rem;
 }
 
+.sobre_mi{
+    text-align: justify;
+}
 /* Responsive */
 
 @media screen and (max-width: 767px) {
