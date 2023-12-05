@@ -407,3 +407,8 @@ a{
 body{
     background-color: #d9cfcf;
 }
+.pulpo{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
